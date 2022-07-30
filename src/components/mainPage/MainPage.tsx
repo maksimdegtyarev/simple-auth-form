@@ -1,19 +1,21 @@
 import { logout } from '../../utils/logout';
+import { Button } from '../button/Button';
 import styles from './mainPage.module.css';
 
 interface IMainPage {
   onLogout: VoidFunction;
-}
+};
 
 export const MainPage = ({ onLogout }: IMainPage) => {
   const handleLogout = () => {
     logout();
     onLogout();
-  }
+  };
+
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Congrats, you are in.</h1>
-      <div onClick={handleLogout}>logout</div>
+      <Button onClick={handleLogout}>logout</Button>
     </div>
-  )
-}
+  );
+};

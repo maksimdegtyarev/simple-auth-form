@@ -15,4 +15,4 @@ export const Bootstrap = () => {
       <MainPage onLogout={() => setToken('')} />
     </div>
   );
-}
+};
