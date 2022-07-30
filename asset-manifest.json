@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/simple-auth-form/static/css/main.298e9de5.css",
+    "main.css": "/simple-auth-form/static/css/main.128c33f4.css",
     "main.js": "/simple-auth-form/static/js/main.bb6a9f30.js",
     "index.html": "/simple-auth-form/index.html",
-    "main.298e9de5.css.map": "/simple-auth-form/static/css/main.298e9de5.css.map",
+    "main.128c33f4.css.map": "/simple-auth-form/static/css/main.128c33f4.css.map",
     "main.bb6a9f30.js.map": "/simple-auth-form/static/js/main.bb6a9f30.js.map"
   },
   "entrypoints": [
-    "static/css/main.298e9de5.css",
+    "static/css/main.128c33f4.css",
     "static/js/main.bb6a9f30.js"
   ]
 }
